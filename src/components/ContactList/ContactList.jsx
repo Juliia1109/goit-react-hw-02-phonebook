@@ -5,7 +5,7 @@ export default function ContactList({ contacts, deleteContacts }) {
   return (
     <ul className={css.list}>
     {contacts.map(contact=>
-    (<li  key = {contact.id}>
+    (<li  key = {contact.id} className={css.item}>
               {contact.name}:{contact.number}
      <button
      type="button"

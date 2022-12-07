@@ -3,13 +3,14 @@
 }
 
 .text {
-  margin: 10px;
+  margin-bottom: 5px;
   font-size: larger;
   font-weight: 500;
-  color: blueviolet;
+  /* color: blueviolet; */
 }
 
 .input {
   width: 250px;
   margin-top: 2px;
+  /* background-color: azure; */
 }
