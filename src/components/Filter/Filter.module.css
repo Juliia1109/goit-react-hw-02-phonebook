@@ -1,0 +1,15 @@
+.container {
+  margin: 10px;
+}
+
+.text {
+  margin: 10px;
+  font-size: larger;
+  font-weight: 500;
+  color: blueviolet;
+}
+
+.input {
+  width: 250px;
+  margin-top: 2px;
+}

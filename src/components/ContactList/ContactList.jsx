@@ -6,9 +6,7 @@ export default function ContactList({ contacts, deleteContacts }) {
     <ul className={css.list}>
     {contacts.map(contact=>
     (<li  key = {contact.id}>
-    <span>
-            {contact.name}: <span className={css.span}>{contact.number}</span>
-    </span>
+              {contact.name}:{contact.number}
      <button
      type="button"
      onClick={()=> deleteContacts(contact.id) }
